@@ -4,16 +4,13 @@ import { ModelAndStyle } from './ModelAndStyle'
 
 const RightSideBar = () => {
   return (
-    <section className='max-w-[400px] p-4 border-[1px] border-[#EEEEEE] border-t-[0px] pt-[30px]'>
+    <section className='max-w-[400px] p-6 border-[1px] border-[#EEEEEE] border-t-[0px] pt-[30px]'>
       <form>
         <div className='mb-4'>
-          <label htmlFor='message' className='block text-sm font-medium text-gray-700 mb-2'>
-            Your Message
-          </label>
           <textarea
             id='message'
             name='message'
-            className='block w-[360px] h-[120px] px-3 py-2 border border-gray-300 shadow-sm focus:outline-none rounded-lg focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm custom-border'
+            className='block w-[352px] h-[120px] px-3 py-2 border border-gray-300 shadow-sm focus:outline-none rounded-lg focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm custom-border'
             placeholder='Enter your message'
             style={{resize: 'none'}}
           />

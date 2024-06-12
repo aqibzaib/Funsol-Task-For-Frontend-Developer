@@ -80,3 +80,7 @@
   box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
   padding: 0 6px 0 36px; /* Adjust based on your requirements */
 }
+  
+.custom-border{border: 2px solid transparent; 
+  border-image: linear-gradient(45deg, #E57050, #DB2268) 1;
+}
