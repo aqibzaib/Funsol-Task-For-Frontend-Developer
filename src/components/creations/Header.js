@@ -3,7 +3,7 @@ import React from 'react'
 const Header = () => {
   return (
 <>
-<section className="max-w-full mx-auto px-6">
+<section className="max-w-full mx-auto pl-6 pr-[4px] lg:px-6">
     <div className="flex justify-between  py-[22px]  ">
      <div className="flex flex-row gap-[50px]">
      <p className="font-[400] text-[28px] leading-[35.7px] bg-clip-text text-transparent bg-gradient-to-r from-[#E57050] to-[#DB2268] cursor-pointer">
