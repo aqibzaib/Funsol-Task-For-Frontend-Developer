@@ -8,11 +8,11 @@ const SideBar = () => {
         {img: "./Images/Rectangle 30.png"},
     ]
   return (
-    <section className='max-w-[250px]'>
+    <section className='max-w-[250px] border-[1px] border-[#EEEEEE] border-t-[0px]'>
         <div className=''> 
-             <p className='font-[600] text-[14px] leading-[24px] mb-[12px]'>My Creations</p>
+             <p className='font-[600] text-[14px] leading-[24px] mb-[12px] pl-[20px]'>My Creations</p>
              <div className='h-[1px] w-full bg-[#EEEEEE] mb-[16px]'></div>
-             <div className='grid grid-cols-2 gap-[10px]'>
+             <div className='grid grid-cols-2 gap-[10px] px-[16px]'>
                 {data.map((item, index )=>{
                     return(
                         <div>

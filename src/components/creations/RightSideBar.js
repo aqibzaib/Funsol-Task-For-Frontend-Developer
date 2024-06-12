@@ -1,5 +1,6 @@
 import React from 'react'
 import AspectRatio from './AspectRatio'
+import { ModelAndStyle } from './ModelAndStyle'
 
 const RightSideBar = () => {
   return (
@@ -28,6 +29,7 @@ const RightSideBar = () => {
         <img src="./Images/Info.png" alt="loaing"  className='w-[20px] h-[20px] mt-[4px]'/>
       </div>
       <AspectRatio />
+      <ModelAndStyle />
     </section>
   )
 }

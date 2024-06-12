@@ -4,7 +4,7 @@ const Main = () => {
   return (
   <section className='max-w-[925px] mx-auto'>
     <div>
-        <h2 className="text-[50px] font-[600] text-center leading-[75px] mt-[60px]">
+        <h2 className="text-[50px] font-[600] text-center leading-[75px] mt-[60px] cursor-pointer">
           AI Art Generator
         </h2>
         <div className=" mx-auto mt-[20px] mb-[60px]">
