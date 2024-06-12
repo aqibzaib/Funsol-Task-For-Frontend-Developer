@@ -38,5 +38,45 @@
 }
 .custom-border {
   border: 2px solid transparent; /* Ensures the border space is allocated */
-  border-image: linear-gradient(45deg, #E57050, #DB2268) 1;
+  border-image: linear-gradient(45deg, #e57050, #db2268) 1;
+}
+
+/* .input-border {
+  display: inline-block;
+  border-radius: 12px;
+  padding: 2px; 
+  background: linear-gradient(45deg, #e57050, #db2268);
+}
+
+.content {
+  border-radius: 12px; 
+  background: white;
+  padding: 10px; 
+  height: 100%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ */
+.input-border {
+  width: 100%; /* Make the width 100% */
+  border-radius: 12px;
+  padding: 2px; /* Adjust based on border thickness */
+  background: linear-gradient(45deg, #e57050, #db2268);
+  display: flex; /* Flexbox to handle inner content alignment */
+  align-items: center; /* Center align content vertically */
+  justify-content: center; /* Center align content horizontally */
+  box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+
+.content {
+  border-radius: 10px; /* Adjust based on border thickness */
+  background: white; /* Adjust based on your background color */
+  width: 100%; /* Make inner content fill the width of the parent */
+  height: 100%; /* Make inner content fill the height of the parent */
+  display: flex; /* Flexbox to handle inner content alignment */
+  align-items: center; /* Center align content vertically */
+  justify-content: space-between; /* Center align content horizontally */
+  box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+  padding: 0 6px 0 36px; /* Adjust based on your requirements */
 }
