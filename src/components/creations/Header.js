@@ -3,8 +3,8 @@ import React from 'react'
 const Header = () => {
   return (
 <>
-<section className="max-w-[1440px] mx-auto ">
-    <div className="flex justify-between  py-[22px] pl-6 pr-[0px] lg:px-[120px]">
+<section className="max-w-full mx-auto px-6">
+    <div className="flex justify-between  py-[22px]  ">
      <div className="flex flex-row gap-[50px]">
      <p className="font-[400] text-[28px] leading-[35.7px] bg-clip-text text-transparent bg-gradient-to-r from-[#E57050] to-[#DB2268] cursor-pointer">
         ART GENERATOR
@@ -26,10 +26,8 @@ const Header = () => {
         </div>
       </div>
      </div>
-      <button className="hidden lg:block text-[16px] font-[500] text-[#FFFFFF] leading-[27px] px-[29px] pt-[11px] pb-[11px] bg-gradient-to-r from-[#E57050] to-[#DB2268]  rounded-[12px] cursor-pointer">
-        Sign In
-      </button>
-      <img src='./Images/man.png' alt='loading...' className='lg:hidden block w-[20px] h-[20px] mt-[10px]'/>
+     
+      <img src='./Images/man.png' alt='loading...' className=' w-[20px] h-[20px] mt-[10px]'/>
     </div>
     
   </section>

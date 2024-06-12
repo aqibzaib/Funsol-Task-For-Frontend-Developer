@@ -5,7 +5,7 @@ const Navbar = () => {
     <section className="max-w-[1440px] mx-auto">
       <div className="flex justify-between py-[22px] px-[120px]">
         <div className="flex flex-row gap-[50px]">
-          <p className="font-audiowide font-[400] text-[28px] leading-[35.7px] text-[#E57050] cursor-pointer">
+          <p className="font-audiowide font-[400] text-[28px] leading-[35.7px] bg-clip-text text-transparent bg-gradient-to-r from-[#E57050] to-[#DB2268] cursor-pointer">
             ART GENERATOR
           </p>
           <div className="hidden md:block">
