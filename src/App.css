@@ -37,6 +37,6 @@
   }
 }
 .custom-border {
-  border: 2px solid transparent; /* Ensures the border space is allocated */
+  border: 2px solid transparent; 
   border-image: linear-gradient(45deg, #E57050, #DB2268) 1;
 }
