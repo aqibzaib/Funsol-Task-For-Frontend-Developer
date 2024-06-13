@@ -62,7 +62,7 @@ const AspectRatio = () => {
               </p>
               {item.Icon}
             </div>
-            <p className="test-[#FA5711] text-[10px] font-[400] text-center pt-[8px] font-poppins">
+            <p className="test-[#FA5711] text-[10px] leading-[15px] font-[400] text-center pt-[8px] font-poppins">
               {item.label}
             </p>
           </div>
