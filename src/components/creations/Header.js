@@ -1,55 +1,58 @@
-import React from 'react'
+import React from "react";
 
 const Header = () => {
   return (
-<>
-<section className="max-w-full mx-auto px-6">
-    <div className="flex justify-between  py-[22px]  ">
-     <div className="flex flex-row gap-[50px]">
-     <p className="font-[400] text-[28px] leading-[35.7px] bg-clip-text text-transparent bg-gradient-to-r from-[#E57050] to-[#DB2268] cursor-pointer">
-        ART GENERATOR
-      </p>
-      <div className="hidden lg:block">
-        <div className="flex justify-between gap-[23px]">
-        <button className="text-[16px]  duration-300 ease-linear  font-[500] text-[#999999] hover:text-[#FA5711] leading-[27px] px-[29px] pt-[11px] pb-[11px] hover:bg-[#FA57111A] flex items-center rounded-[5px] cursor-pointer bg-[#9999991A]">
-        Text to image
-        </button>
-        <button className="text-[16px]  duration-300 ease-linear  font-[500] text-[#999999] hover:text-[#FA5711] leading-[27px] px-[29px] pt-[11px] pb-[11px] hover:bg-[#FA57111A] flex items-center rounded-[5px] cursor-pointer bg-[#9999991A]">
-        Image to image
-        </button>
-        <button className="text-[16px]  duration-300 ease-linear  font-[500] text-[#999999] hover:text-[#FA5711] leading-[27px] px-[29px] pt-[11px] pb-[11px] hover:bg-[#FA57111A] flex items-center rounded-[5px] cursor-pointer bg-[#9999991A]">
-        AI Avatar
-        </button>
-        <button className="text-[16px]  duration-300 ease-linear  font-[500] text-[#999999] hover:text-[#FA5711] leading-[27px] px-[29px] pt-[11px] pb-[11px] hover:bg-[#FA57111A] flex items-center rounded-[5px] cursor-pointer bg-[#9999991A]">
-        Face Swap
-        </button>
-        </div>
-      </div>
-     </div>
-     
-      <img src='./Images/man.png' alt='loading...' className=' w-[20px] h-[20px] mt-[10px]'/>
-    </div>
-    
-  </section>
-  <div className='bg-[#EEEEEE] h-[1px] w-full'></div>
-  <div className="block lg:hidden">
-        <div className="flex justify-between pl-6 gap-[6px]  mt-[20px]">
-        <button className="text-[10px]  duration-300 ease-linear  font-[500] text-[#999999] hover:text-[#FA5711] leading-[15px] px-[8px] pt-[5px] pb-[5px] hover:bg-[#FA57111A] flex items-center rounded-[5px] cursor-pointer bg-[#9999991A]">
-        Text to image
-        </button>
-        <button className="text-[10px]  duration-300 ease-linear  font-[500] text-[#999999] hover:text-[#FA5711] leading-[15px] px-[8px] pt-[5px] pb-[5px] hover:bg-[#FA57111A] flex items-center rounded-[5px] cursor-pointer bg-[#9999991A]">
-        Image to image
-        </button>
-        <button className="text-[10px]  duration-300 ease-linear  font-[500] text-[#999999] hover:text-[#FA5711] leading-[15px] px-[8px] pt-[5px] pb-[5px] hover:bg-[#FA57111A] flex items-center rounded-[5px] cursor-pointer bg-[#9999991A]">
-        AI Avatar
-        </button>
-        <button className="text-[10px]  duration-300 ease-linear  font-[500] text-[#999999] hover:text-[#FA5711] leading-[15px] px-[8px] pt-[5px] pb-[5px] hover:bg-[#FA57111A] flex items-center rounded-[5px] cursor-pointer bg-[#9999991A]">
-        Face Swap
-        </button>
-        </div>
-      </div>
-  </>
-  )
-}
+    <>
+      <section className="max-w-full mx-auto px-6">
+        <div className="flex justify-between  py-[22px]  ">
+          <div className="flex flex-row gap-[50px]">
+            <p className="font-[400] font-audiowide text-[28px] leading-[35.7px] bg-clip-text text-transparent bg-gradient-to-r from-[#E57050] to-[#DB2268] cursor-pointer">
+              ART GENERATOR
+            </p>
+            <div className="hidden lg:block">
+              <div className="flex justify-between gap-[23px]">
+                <button className="text-[16px] font-poppins  duration-300 ease-linear  font-[500] text-[#999999] hover:text-[#FA5711] leading-[27px] px-[29px] pt-[11px] pb-[11px] hover:bg-[#FA57111A] flex items-center rounded-[5px] cursor-pointer bg-[#9999991A]">
+                  Text to image
+                </button>
+                <button className="text-[16px] font-poppins  duration-300 ease-linear  font-[500] text-[#999999] hover:text-[#FA5711] leading-[27px] px-[29px] pt-[11px] pb-[11px] hover:bg-[#FA57111A] flex items-center rounded-[5px] cursor-pointer bg-[#9999991A]">
+                  Image to image
+                </button>
+                <button className="text-[16px] font-poppins  duration-300 ease-linear  font-[500] text-[#999999] hover:text-[#FA5711] leading-[27px] px-[29px] pt-[11px] pb-[11px] hover:bg-[#FA57111A] flex items-center rounded-[5px] cursor-pointer bg-[#9999991A]">
+                  AI Avatar
+                </button>
+                <button className="text-[16px] font-poppins  duration-300 ease-linear  font-[500] text-[#999999] hover:text-[#FA5711] leading-[27px] px-[29px] pt-[11px] pb-[11px] hover:bg-[#FA57111A] flex items-center rounded-[5px] cursor-pointer bg-[#9999991A]">
+                  Face Swap
+                </button>
+              </div>
+            </div>
+          </div>
 
-export default Header
+          <img
+            src="./Images/man.png"
+            alt="loading..."
+            className=" w-[20px] h-[20px] mt-[10px] md:w-[40px] md:h-[40px]"
+          />
+        </div>
+      </section>
+      <div className="bg-[#EEEEEE] h-[1px] w-full"></div>
+      <div className="block lg:hidden">
+        <div className="flex justify-between pl-6 gap-[6px]  mt-[20px]">
+          <button className="text-[10px]  duration-300 ease-linear  font-[500] text-[#999999] hover:text-[#FA5711] leading-[15px] px-[8px] pt-[5px] pb-[5px] hover:bg-[#FA57111A] flex items-center rounded-[5px] cursor-pointer bg-[#9999991A]">
+            Text to image
+          </button>
+          <button className="text-[10px]  duration-300 ease-linear  font-[500] text-[#999999] hover:text-[#FA5711] leading-[15px] px-[8px] pt-[5px] pb-[5px] hover:bg-[#FA57111A] flex items-center rounded-[5px] cursor-pointer bg-[#9999991A]">
+            Image to image
+          </button>
+          <button className="text-[10px]  duration-300 ease-linear  font-[500] text-[#999999] hover:text-[#FA5711] leading-[15px] px-[8px] pt-[5px] pb-[5px] hover:bg-[#FA57111A] flex items-center rounded-[5px] cursor-pointer bg-[#9999991A]">
+            AI Avatar
+          </button>
+          <button className="text-[10px]  duration-300 ease-linear  font-[500] text-[#999999] hover:text-[#FA5711] leading-[15px] px-[8px] pt-[5px] pb-[5px] hover:bg-[#FA57111A] flex items-center rounded-[5px] cursor-pointer bg-[#9999991A]">
+            Face Swap
+          </button>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Header;

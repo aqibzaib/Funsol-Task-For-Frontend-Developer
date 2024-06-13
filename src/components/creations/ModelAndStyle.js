@@ -1,64 +1,49 @@
-import React from 'react';
+import React from "react";
+import ModalStyleSelector from "./ModalStyleSelector";
+import img_01 from "../../assets/images/img_01.png";
+import img_02 from "../../assets/images/img_02.png";
+import img_03 from "../../assets/images/img_03.png";
+import img_04 from "../../assets/images/img_04.png";
+import img_05 from "../../assets/images/img_05.png";
+import img_06 from "../../assets/images/img_06.png";
+import img_07 from "../../assets/images/img_07.png";
+import img_08 from "../../assets/images/img_08.png";
+import img_09 from "../../assets/images/img_09.png";
 
 export const ModelAndStyle = () => {
-    const myCards = [
-        { img: "./Images/Rectangle 30.png", title: "ICON" },
-        { img: "./Images/Render.png", title: "ICON" },
-        { img: "./Images/Rectangle 30.png", title: "ICON" },
-        { img: "./Images/Render.png", title: "ICON" },
-        { img: "./Images/Rectangle 30.png", title: "ICON" },
-        { img: "./Images/Render.png", title: "ICON" },
-        { img: "./Images/Rectangle 30.png", title: "ICON" },
-        { img: "./Images/Render.png", title: "ICON" },
-        { img: "./Images/Rectangle 30.png", title: "ICON" },
-        { img: "./Images/Render.png", title: "ICON" },
-        { img: "./Images/Rectangle 30.png", title: "ICON" },
-        { img: "./Images/Render.png", title: "ICON" },
-        { img: "./Images/Rectangle 30.png", title: "ICON" },
-        { img: "./Images/Render.png", title: "ICON" },
-        { img: "./Images/Rectangle 30.png", title: "ICON" },
-        { img: "./Images/Render.png", title: "ICON" },
-        { img: "./Images/Rectangle 30.png", title: "ICON" },
-        { img: "./Images/Render.png", title: "ICON" },
-        { img: "./Images/Rectangle 30.png", title: "ICON" },
-        { img: "./Images/Render.png", title: "ICON" },
-    ];
+  const myCards = [
+    { img: img_01, title: "img" },
+    { img: img_02, title: "img" },
+    { img: img_03, title: "img" },
+    { img: img_04, title: "img" },
+    { img: img_05, title: "img" },
+    { img: img_06, title: "img" },
+    { img: img_07, title: "img" },
+    { img: img_08, title: "img" },
+    { img: img_09, title: "img" },
+    { img: img_09, title: "img" },
+  ];
 
-    return (
-        <section className='relative'>
-            <div className='flex items-center gap-[5px] mt-[20px] mb-[15px]'>
-                <p className='text-[16px] font-[500] leading-[24px]'>Models & Styles</p>
-                <img src='./Images/Info.png' alt='info' className='w-[20px] h-[20px]' />
-            </div>
-            <div className='flex gap-[12px]'>
-                <div className='flex justify-between gap-[58px] cursor-pointer pl-[10px] pr-[10px] py-[5px] border-[#FA57111A] border-[1px] hover:border-[#FA5711] rounded-[12px] hover:bg-[#FA57111A]'>
-                    <div>
-                        <p className='text-[10px] font-[500] leading-[15px]'>Model</p>
-                        <p className='text-[14px] font-[600] leading-[21px] mt-[5px]'>Realistic</p>
-                    </div>
-                    <img src='./Images/Rectangle 30.png' alt='model' className='w-[40px] h-[40px]' />
-                </div>
-                <div className='flex justify-between gap-[58px] cursor-pointer pl-[10px] pr-[10px] py-[5px] border-[#FA57111A] border-[1px] hover:border-[#FA5711] rounded-[12px] hover:bg-[#FA57111A]'>
-                    <div>
-                        <p className='text-[10px] font-[500] leading-[15px]'>Model</p>
-                        <p className='text-[14px] font-[600] leading-[21px] mt-[5px]'>Realistic</p>
-                    </div>
-                    <img src='./Images/Rectangle 30.png' alt='model' className='w-[40px] h-[40px]' />
-                </div>
-            </div>
-            <div className='grid grid-cols-3 gap-[10px] mt-[15px] lg:overflow-none overflow-y-auto h-[270px] lg:h-auto'>
-                {myCards.map((item, index) => (
-                    <div key={index} className='relative'>
-                        <img src={item.img} alt='icon' className='w-[113px] h-[90px] rounded-[10px] object-cover' />
-                        {/* <p className='absolute z-[99] text-white bottom-[15px] left-[22px]'>{item.title}</p> */}
-                    </div>
-                ))}
-            </div>
-            <div className='absolute lg:static mt-[140px] bottom-0 left-0 right-0'>
-                <button className='text-white py-[15px] px-[137px] text-[18px] font-[600] leading-[27px] bg-gradient-to-r from-[#E57050] to-[#DB2268] rounded-[12px] w-full'>
-                    Generate
-                </button>
-            </div>
-        </section>
-    );
+  return (
+    <section className="relative">
+      <ModalStyleSelector />
+      <div className="grid grid-cols-3 gap-[10px] mt-[15px] lg:overflow-none overflow-y-auto h-[270px] lg:h-auto">
+        {myCards.map((item, index) => (
+          <div key={index} className="relative">
+            <img
+              src={item.img}
+              alt="icon"
+              className="w-[113px] h-[90px] rounded-[10px] object-cover"
+            />
+            {/* <p className='absolute z-[99] text-white bottom-[15px] left-[22px]'>{item.title}</p> */}
+          </div>
+        ))}
+      </div>
+      <div className="absolute lg:static mt-[140px] bottom-0 left-0 right-0">
+        <button className="text-white font-poppins py-[15px] px-[137px] text-[18px] font-[600] leading-[27px] bg-gradient-to-r from-[#E57050] to-[#DB2268] rounded-[12px] w-full">
+          Generate
+        </button>
+      </div>
+    </section>
+  );
 };
