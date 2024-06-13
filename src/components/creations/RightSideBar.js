@@ -22,7 +22,7 @@ const RightSideBar = () => {
         </div>
       </form>
       <div className="font-poppins flex items-center justify-center gap-[8px]">
-        <p className="text-[12px] font-[500] text-[#FA5711]  ">
+        <p className="text-[12px] leading-[18px] font-[500] text-[#FA5711]  ">
           Additional settings
         </p>
         <img
