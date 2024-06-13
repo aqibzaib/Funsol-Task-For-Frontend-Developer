@@ -1,11 +1,15 @@
 import React from "react";
+import img_12 from "../../assets/images/img_12.png";
+import img_13 from "../../assets/images/img_13.png";
+import img_14 from "../../assets/images/img_14.png";
+import img_15 from "../../assets/images/img_15.png";
 
 const SideBar = () => {
   const data = [
-    { img: "./Images/Rectangle 30.png" },
-    { img: "./Images/Rectangle 30.png" },
-    { img: "./Images/Rectangle 30.png" },
-    { img: "./Images/Rectangle 30.png" },
+    { img: img_12 },
+    { img: img_13 },
+    { img: img_14 },
+    { img: img_15 },
   ];
   return (
     <section className="max-w-[250px] border-[1px] border-[#EEEEEE] border-t-[0px] hidden lg:block">
