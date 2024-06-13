@@ -68,15 +68,15 @@ const Cards = () => {
     <img src="./Images/ArrowUp.png" />
   </div>
   <div className='grid grid-cols-2 md:grid-cols-4 gap-[24px]'>
-    <img src='./Images/Rectangle 30.png' alt='loading'className='w-w-full h-full md:h-[280px] md:w-[280px]' />
+    <img src='./Images/Rectangle 30.png' alt='loading'className='w-w-[196px] h-full md:h-[280px] md:w-[280px] object-cover' />
     <div className='flex flex-col md:flex-row gap-[24px]'>
-    <img src='./Images/Rectangle 30.png' alt='loading'className='w-full md:w-full h-full md:h-[280px]' />
-    <img src='./Images/Rectangle 30.png' alt='loading'className='w-full md:w-full h-full md:h-[280px]' />
+    <img src='./Images/Rectangle 30.png' alt='loading'className='w-full md:w-full h-[104px] md:h-[280px] object-cover' />
+    <img src='./Images/Rectangle 30.png' alt='loading'className='w-full md:w-full h-[104px] md:h-[280px] object-cover' />
     </div>
-    <img src='./Images/Rectangle 30.png' alt='loading'className='w-[250px] h-[280px]' />
-    <img src='./Images/Rectangle 30.png' alt='loading'className='w-[250px] h-[280px]' />
-    <img src='./Images/Rectangle 30.png' alt='loading'className='w-[250px] h-[280px]' />
-    <img src='./Images/Rectangle 30.png' alt='loading'className='w-[250px] h-[280px]' />
+    <img src='./Images/Rectangle 30.png' alt='loading'className='w-[250px] h-[280px] object-cover' />
+    <img src='./Images/Rectangle 30.png' alt='loading'className='w-[250px] h-[280px] object-cover' />
+    <img src='./Images/Rectangle 30.png' alt='loading'className='w-[250px] h-[280px] object-cover' />
+    <img src='./Images/Rectangle 30.png' alt='loading'className='w-[250px] h-[280px] object-cover' />
 
   </div>
    </section>
