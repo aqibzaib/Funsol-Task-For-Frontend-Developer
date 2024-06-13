@@ -7,14 +7,14 @@ const RightSideBar = () => {
     <section className="max-w-[400px] p-6 border-[1px] border-[#EEEEEE] border-t-[0px] pt-[30px]">
       <form>
         <div className="mb-4">
-          <div class="input-border">
-            <div class="content">
+          <div class="input-border-text">
+            <div class="content-text">
               <textarea
                 id="message"
                 name="message"
                 class="custom-border"
                 placeholder="Enter your message"
-                className="font-poppins text-xs font-medium leading-4 text-[#999999]  text-[12px] git block w-[352px] h-[120px] px-3 py-2 border border-gray-300 shadow-sm focus:outline-none rounded-lg focus:ring-none focus:border-none sm:text-sm custom-border"
+                className="block w-[352px] h-[120px] px-3 py-2 border border-gray-300 shadow-sm focus:outline-none rounded-lg focus:ring-none focus:border-none sm:text-sm custom-border"
                 style={{ resize: "none" }}
               ></textarea>
             </div>
