@@ -1,19 +1,24 @@
-import React from 'react'
-import AspectRatio from './AspectRatio'
-import { ModelAndStyle } from './ModelAndStyle'
+import React from "react";
+import AspectRatio from "./AspectRatio";
+import { ModelAndStyle } from "./ModelAndStyle";
 
 const RightSideBar = () => {
   return (
     <section className="max-w-[400px] p-6 border-[1px] border-[#EEEEEE] border-t-[0px] pt-[30px]">
       <form>
         <div className="mb-4">
-          <textarea
-            id="message"
-            name="message"
-            className="block w-[352px] h-[120px] px-3 py-2 border border-gray-300 shadow-sm focus:outline-none rounded-lg focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm custom-border"
-            placeholder="Enter your message"
-            style={{ resize: "none" }}
-          />
+          <div class="input-border">
+            <div class="content">
+              <textarea
+                id="message"
+                name="message"
+                class="custom-border"
+                placeholder="Enter your message"
+                className="block w-[352px] h-[120px] px-3 py-2 border border-gray-300 shadow-sm focus:outline-none rounded-lg focus:ring-none focus:border-none sm:text-sm custom-border"
+                style={{ resize: "none" }}
+              ></textarea>
+            </div>
+          </div>
         </div>
       </form>
       <div className="font-poppins flex items-center justify-center gap-[8px]">
@@ -39,6 +44,6 @@ const RightSideBar = () => {
       <ModelAndStyle />
     </section>
   );
-}
+};
 
-export default RightSideBar
+export default RightSideBar;

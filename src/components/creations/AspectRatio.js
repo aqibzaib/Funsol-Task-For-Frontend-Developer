@@ -2,9 +2,7 @@ import React, { useState } from "react";
 import { FacebookIcon, InstaIcon } from "../../assets/icons";
 
 const AspectRatio = () => {
-  const [clickedIndex, setClickedIndex] = useState(0
-    
-  );
+  const [clickedIndex, setClickedIndex] = useState(0);
 
   const data = [
     {
@@ -56,8 +54,8 @@ const AspectRatio = () => {
               } p-[6px]`}
             >
               <p
-                className={`text-[10px] font-[500] font-poppins ${
-                  clickedIndex === index ? "text-[#FA5711]" : "text-[#222222]"
+                className={`text-[10px] font-[500] font-poppins px-[2px] ${
+                  clickedIndex === index ? "text-[#FA5711]" : "text-[#222222] "
                 }`}
               >
                 {item.ratio}
