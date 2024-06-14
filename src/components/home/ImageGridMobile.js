@@ -71,7 +71,7 @@ const ImageGridItem = ({ items, isEven }) => {
   return (
     <div className="grid grid-cols-2 gap-2 mb-4">
       <div
-        className={` ${
+        className={`relative ${
           isEven ? "col-span-1 row-span-2 h-[220px]" : "h-[105px]"
         }`}
       >
@@ -80,9 +80,13 @@ const ImageGridItem = ({ items, isEven }) => {
           alt={items[0].tagline}
           className="w-full h-full rounded-lg object-cover"
         />
+
+        <p className="absolute inset-0 flex items-center justify-center text-white text-center   text-[10px] leading-[15px] font-[400] font-poppins">
+          {items[0].tagline}
+        </p>
       </div>
       <div
-        className={` ${
+        className={`relative ${
           !isEven ? "col-span-1 row-span-2 h-[220px]" : "h-[105px]"
         }`}
       >
@@ -91,13 +95,19 @@ const ImageGridItem = ({ items, isEven }) => {
           alt={items[1].tagline}
           className="w-full h-full rounded-lg object-cover"
         />
+        <p className="absolute inset-0 flex items-center justify-center text-white text-center   text-[10px] leading-[15px] font-[400] font-poppins">
+          {items[0].tagline}
+        </p>
       </div>
-      <div className="h-[105px]">
+      <div className="h-[105px] relative">
         <img
           src={items[2].img}
           alt={items[2].tagline}
           className="w-full h-full rounded-lg object-cover"
         />
+        <p className="absolute inset-0 flex items-center justify-center text-white text-center  text-[10px] leading-[15px] font-[400] font-poppins">
+          {items[2].tagline}
+        </p>
       </div>
     </div>
   );
@@ -105,16 +115,16 @@ const ImageGridItem = ({ items, isEven }) => {
 
 const ImageGridMobile = () => {
   return (
-   <div className="relative">
-     <div className="p-4 h-[700px] overflow-y-auto">
-      {data.map((items, index) => (
-        <ImageGridItem key={index} items={items} isEven={index % 2 === 0} />
-      ))}
-    </div>
-    <div className="abolute bottom-[40px] ">
-      <Footer />
+    <div className="relative">
+      <div className="p-4 h-[700px] overflow-y-auto">
+        {data.map((items, index) => (
+          <ImageGridItem key={index} items={items} isEven={index % 2 === 0} />
+        ))}
       </div>
-   </div>
+      <div className="abolute bottom-[40px] ">
+        <Footer />
+      </div>
+    </div>
   );
 };
 
