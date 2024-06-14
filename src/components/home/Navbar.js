@@ -4,13 +4,13 @@ import { ArrowDownIcon } from "../../assets/icons";
 const Navbar = () => {
   return (
     <section className="max-w-[1440px] mx-auto">
-      <div className="flex justify-between py-[22px] px-6 lg:px-[120px]">
-        <div className="flex flex-row gap-[50px]">
+      <div className="flex justify-between py-[22px] lg:py-[22px] px-6 lg:px-[120px]">
+        <div className="flex flex-row  md:[30px] lg:gap-[50px] ">
           <p className="font-audiowide font-[400] text-[16px] md:text-[28px] leading-[35.7px] bg-clip-text text-transparent bg-gradient-to-r from-[#E57050] to-[#DB2268] cursor-pointer">
             ART GENERATOR
           </p>
           <div className="hidden md:block">
-            <ul className="flex justify-between gap-[40px]">
+            <ul className="flex justify-between gap-10px] lg:gap-[40px]">
               <Link
                 to="/text-to-image"
                 className="font-poppins text-[16px] text-[#222222] font-[400] leading-[28px] flex items-center justify-center"
@@ -38,7 +38,7 @@ const Navbar = () => {
         <img
           src="./Images/man.png"
           alt="loading..."
-          className="block lg:hidden w-[20px] h-[20px] mt-[8px]"
+          className="block md:hidden w-[20px] h-[20px] mt-[8px]"
         />
       </div>
     </section>
