@@ -8,7 +8,7 @@ function SearchField() {
           placeholder="Enter Your prompt here"
           className="font-poppins text-base font-normal leading-6 text-left outline-none focus:outline-none text-[#999999]"
         />
-        <button className="font-poppins text-[20px] font-semibold leading-[30px] text-left  text-[#FFFFFF] bg-gradient-to-r from-[#E57050] to-[#DB2268] px-10 py-[13px] rounded-xl">
+        <button className="font-poppins text-[10px] md:text-[20px] font-semibold  leading-[30px] text-left  text-[#FFFFFF] bg-gradient-to-r from-[#E57050] to-[#DB2268]   px-[10px] py-[10px] md:py-[13px] rounded-xl">
           Generate
         </button>
       </div>

@@ -5,11 +5,11 @@ const Main = () => {
   return (
     <section className="max-w-[925px] mx-auto">
       <div className="px-6">
-        <h2 className=" ">
+        <h2 className="text-[20px] font-[600] md:text-[50px] text-center font-poppins text-[#222222]">
           AI Art Generator
         </h2>
         <div className=" mx-auto mt-[20px] mb-[60px]">
-          <p className=" font-poppins text-[20px] font-[400] leading-[30p] text-center text-[#666666]">
+          <p className=" font-poppins text-[10px] md:text-[20px] font-[400] leading-[30p] text-center text-[#666666]">
             Create awe-inspiring masterpieces effortlessly and explore the
             endless possibilities of AI generated art. Enter a prompt, and
             choose a style, AI art generator bring your ideas to life!
