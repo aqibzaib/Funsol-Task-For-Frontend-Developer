@@ -13,7 +13,7 @@ const Cards = () => {
         className="flex justify-end cursor-pointer absolute right-[60px] bottom-[-35px]"
         onClick={handleScrollToTop}
       >
-        <img src="./Images/ArrowUp.png" alt="up arrow"  />
+        <img src="./Images/ArrowUp.png" alt="up arrow"   />
       </div>
       <div className="hidden md:block">
         <ImageGrid />

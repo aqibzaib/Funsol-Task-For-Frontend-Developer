@@ -111,7 +111,7 @@ const ImageGridMobile = () => {
         <ImageGridItem key={index} items={items} isEven={index % 2 === 0} />
       ))}
     </div>
-    <div className="abolute bottom-[40px]">
+    <div className="abolute bottom-[40px] ">
       <Footer />
       </div>
    </div>
