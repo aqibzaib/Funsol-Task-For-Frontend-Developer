@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -6,9 +7,12 @@ const Header = () => {
       <section className="max-w-full mx-auto pl-6 pr-[4px] lg:px-6">
         <div className="flex justify-between  py-[22px]  ">
           <div className="flex flex-row gap-[50px]">
-            <p className="font-[400] font-audiowide text-[16px] sm:text-[28px] sm:leading-[35.7px] leading-[20.4px] bg-clip-text text-transparent bg-gradient-to-r from-[#E57050] to-[#DB2268] cursor-pointer">
+            <Link
+              to="/"
+              className="font-[400] font-audiowide text-[16px] sm:text-[28px] sm:leading-[35.7px] leading-[20.4px] bg-clip-text text-transparent bg-gradient-to-r from-[#E57050] to-[#DB2268] cursor-pointer"
+            >
               ART GENERATOR
-            </p>
+            </Link>
             <div className="hidden lg:block">
               <div className="flex justify-between gap-[23px]">
                 <button className="text-[16px] font-poppins font-poppins   duration-300 ease-linear  font-[500] text-[#999999] hover:text-[#FA5711] leading-[27px] px-[29px] pt-[11px] pb-[11px] hover:bg-[#FA57111A] flex items-center rounded-[5px] cursor-pointer bg-[#9999991A]">

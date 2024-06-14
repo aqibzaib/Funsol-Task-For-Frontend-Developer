@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { ArrowDownIcon } from "../../assets/icons";
 const Navbar = () => {
   return (
     <section className="max-w-[1440px] mx-auto">
@@ -12,15 +13,21 @@ const Navbar = () => {
             <ul className="flex justify-between gap-[40px]">
               <Link
                 to="/text-to-image"
-                className="font-poppins text-[16px] text-[#222222] font-[400] leading-[28px]"
+                className="font-poppins text-[16px] text-[#222222] font-[400] leading-[28px] flex items-center justify-center"
               >
                 Photo Editing Tools
+                <ArrowDownIcon />
               </Link>
-              <Link  to="/image-to-image" className=" font-poppins text-[16px] text-[#222222] font-[400] leading-[28px]">
-              AI Tools
+              <Link
+                to="/image-to-image"
+                className=" font-poppins text-[16px] text-[#222222] font-[400] leading-[28px] flex items-center justify-center"
+              >
+                AI Tools
+                <ArrowDownIcon />
               </Link>
-              <li className="font-poppins text-[16px] text-[#222222] font-[400] leading-[28px]">
+              <li className="font-poppins text-[16px] text-[#222222] font-[400] leading-[28px] flex items-center justify-center gap-1">
                 Support
+                <ArrowDownIcon />
               </li>
             </ul>
           </div>
@@ -29,10 +36,10 @@ const Navbar = () => {
           Sign In
         </button>
         <img
-            src="./Images/man.png"
-            alt="loading..."
-            className="block lg:hidden w-[20px] h-[20px] mt-[8px]"
-          />
+          src="./Images/man.png"
+          alt="loading..."
+          className="block lg:hidden w-[20px] h-[20px] mt-[8px]"
+        />
       </div>
     </section>
   );
