@@ -4,7 +4,7 @@ import { ModelAndStyle } from "./ModelAndStyle";
 
 const RightSideBar = () => {
   return (
-    <section className="max-w-[400px] p-6 border-[1px] border-[#EEEEEE] border-t-[0px] pt-[30px]">
+    <section className="w-full  md:max-w-[400px] pl-[6px] pr-[10px] lg:p-6 border-[1px] border-[#EEEEEE] border-t-[0px] pt-[30px]">
       <form>
         <div className="mb-4">
           <div class="input-border-text">

@@ -16,9 +16,9 @@ const Navbar = () => {
               >
                 Photo Editing Tools
               </Link>
-              <li className=" font-poppins text-[16px] text-[#222222] font-[400] leading-[28px]">
-                AI Tools
-              </li>
+              <Link  to="/image-to-image" className=" font-poppins text-[16px] text-[#222222] font-[400] leading-[28px]">
+              AI Tools
+              </Link>
               <li className="font-poppins text-[16px] text-[#222222] font-[400] leading-[28px]">
                 Support
               </li>
