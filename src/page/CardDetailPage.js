@@ -1,15 +1,15 @@
 import React from 'react'
-import ResultPage from '../components/slugPage/ResultPage'
+import CardDetail from '../components/card-details/CardDetail'
 import Footer from '../components/footer/Footer'
 
 
 const SlugPage = () => {
   return (
     <div>
-        <ResultPage />
-        <Footer />
+      <CardDetail />
+      <Footer />
     </div>
-  )
+  );
 }
 
 export default SlugPage

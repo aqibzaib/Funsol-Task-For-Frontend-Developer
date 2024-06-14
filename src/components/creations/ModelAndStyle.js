@@ -9,6 +9,7 @@ import img_06 from "../../assets/images/img_06.png";
 import img_07 from "../../assets/images/img_07.png";
 import img_08 from "../../assets/images/img_08.png";
 import img_09 from "../../assets/images/img_09.png";
+import { Link } from "react-router-dom";
 
 export const ModelAndStyle = () => {
   const myCards = [
@@ -29,14 +30,14 @@ export const ModelAndStyle = () => {
       <ModalStyleSelector />
       <div className="grid grid-cols-3 gap-[10px] mt-[15px] lg:overflow-none overflow-y-auto h-[270px] lg:h-auto">
         {myCards.map((item, index) => (
-          <div key={index} className="relative">
+          <Link to='/image-details' key={index} className="relative">
             <img
               src={item.img}
               alt="icon"
               className="w-[113px] h-[90px] rounded-[10px] object-cover"
             />
-            {/* <p className='absolute z-[99] text-white bottom-[15px] left-[22px]'>{item.title}</p> */}
-          </div>
+          
+          </Link>
         ))}
       </div>
       <div className="absolute lg:static mt-[140px] bottom-0 left-0 right-0">
