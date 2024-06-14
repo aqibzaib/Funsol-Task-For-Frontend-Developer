@@ -6,6 +6,7 @@ import img_16 from "../../assets/images/img_30.png";
 import img_17 from "../../assets/images/img_31.png";
 import img_18 from "../../assets/images/img_32.png";
 import img_19 from "../../assets/images/img_33.png";
+import Footer from "../footer/Footer";
 
 const data = [
   [
@@ -104,11 +105,16 @@ const ImageGridItem = ({ items, isEven }) => {
 
 const ImageGridMobile = () => {
   return (
-    <div className="p-4">
+   <div className="relative">
+     <div className="p-4 h-[700px] overflow-y-auto">
       {data.map((items, index) => (
         <ImageGridItem key={index} items={items} isEven={index % 2 === 0} />
       ))}
     </div>
+    <div className="abolute bottom-[40px]">
+      <Footer />
+      </div>
+   </div>
   );
 };
 

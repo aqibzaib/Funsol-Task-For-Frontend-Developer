@@ -3,6 +3,7 @@ import SideBar from "../components/creations/SideBar";
 import RightSideBar from "../components/creations/RightSideBar";
 import CreationMain from "../components/creations/CreationMain";
 import Header from "../components/creations/Header";
+import Footer from "../components/footer/Footer";
 
 const CreationsPage = () => {
   return (
@@ -12,6 +13,9 @@ const CreationsPage = () => {
    <SideBar />
       <CreationMain />
       <RightSideBar />
+   </div>
+   <div className="block md:hidden">
+   <Footer />
    </div>
     </div>
   );
