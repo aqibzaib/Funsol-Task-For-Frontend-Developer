@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { ProfileIcon } from "../../assets/icons";
 
 const Header = () => {
   return (
@@ -31,11 +32,7 @@ const Header = () => {
             </div>
           </div>
 
-          <img
-            src="./Images/man.png"
-            alt="loading..."
-            className=" w-[20px] h-[20px] mt-[10px]"
-          />
+          <ProfileIcon />
         </div>
       </section>
       <div className="bg-[#EEEEEE] h-[1px] w-full"></div>
