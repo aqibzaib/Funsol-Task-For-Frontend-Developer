@@ -36,7 +36,7 @@ const Header = () => {
       </section>
       <div className="bg-[#EEEEEE] h-[1px] w-full"></div>
       <div className="block lg:hidden">
-        <div className="flex justify-between pl-6 gap-[6px]  mt-[20px]">
+        <div className="flex justify-between pl-[10px] pr-[10px] lg:pl-6  gap-[6px]  mt-[20px]">
           <button className="text-[10px] font-poppins  duration-300 ease-linear  font-[500] text-[#999999] hover:text-[#FA5711] leading-[15px] px-[8px] pt-[5px] pb-[5px] hover:bg-[#FA57111A] flex items-center rounded-[5px] cursor-pointer bg-[#9999991A]">
             Text to image
           </button>
